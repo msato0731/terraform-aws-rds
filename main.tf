@@ -57,7 +57,7 @@ resource "aws_security_group" "rds" {
 
 resource "aws_db_parameter_group" "education" {
   name   = "${random_pet.random.id}-education"
-  family = "postgres15"
+  family = "postgres17"
 
   parameter {
     name  = "log_connections"
