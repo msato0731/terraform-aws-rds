@@ -3,6 +3,7 @@
 
 variable "db_name" {
   description = "Unique name to assign to RDS instance"
+  default = "hoge"
 }
 
 variable "db_username" {
